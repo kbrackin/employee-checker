@@ -72,4 +72,5 @@ const viewDepartments = () => {
             console.table(results)
         }
     );
+    askQuestions()
 }
