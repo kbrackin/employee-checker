@@ -1,5 +1,7 @@
 USE employee_checker;
 
+SET FOREIGN_KEY_CHECKS=0;
+
 INSERT INTO dpt (name)
     VALUES
         ('Sales'),
@@ -32,4 +34,4 @@ INSERT INTO employee (first_name, last_name, role_id, mgr_id)
         ('Rauha', 'Snell', 7, 6),
         ('Natalia', 'Durant', 8, 10),
         ('Harriette', 'Jewell', 9, 8),
-        ('Yoko', 'Stieber', 10, NULL),
+        ('Yoko', 'Stieber', 10, NULL);
