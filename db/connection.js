@@ -11,3 +11,5 @@ const connection = mysql.createConnection({
   password: process.env.MYSQL_PASS,
   database: 'employee_checker'
 });
+
+module.exports = connection
